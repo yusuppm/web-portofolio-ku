@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sign in tab</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+      <!-- style css -->
+    <link rel="stylesheet"type="text/css" href="style1n2.css">
+
+  </head>
+  
+  <body>
+    <div class="container-fluid">
+      <!-- Sign In Area -->
+      <div class="signin-container">
+        <div style="display:flex; justify-content:space-between;">
+          <div class="signin-title">Sign in</div>
+          <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+          style="position: relative;"></button>
+      </div>
+      
+      <div class="mb-24">
+        <input
+        class="input-email cb"
+        type="text"
+        placeholder="Enter Email Address"/>
+      </div>
+      
+      
+      <button type="button" class="btn btn-outline-danger signin-btn mb-24 cb">
+        Sign in</button>
+        
+        <button type="button" class="btn btn-outline-danger signup-btn mb-24 cb">
+          Sign up
+        </button>
+        
+        <div class="mb-24" style="text-align: center">or</div>
+        
+        <button type="button" class="btn btn-outline-danger sosmed-btn mb-12 cb">
+          <svg width="16" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.52 12.2729C23.52 11.422 23.4436 10.6038 23.3018 9.81836H12V14.4602H18.4582C18.18 15.9602 17.3345 17.2311 16.0636 18.082V21.0929H19.9418C22.2109 19.0038 23.52 15.9275 23.52 12.2729Z" fill="#4285F4"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 23.9998C15.24 23.9998 17.9564 22.9252 19.9418 21.0925L16.0636 18.0816C14.9891 18.8016 13.6145 19.2271 12 19.2271C8.87455 19.2271 6.22909 17.1161 5.28546 14.2798H1.27637V17.3889C3.25091 21.3107 7.30909 23.9998 12 23.9998Z" fill="#34A853"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M5.28545 14.2799C5.04545 13.5599 4.90909 12.7908 4.90909 11.9999C4.90909 11.209 5.04545 10.4399 5.28545 9.71993V6.61084H1.27636C0.463636 8.23084 0 10.0636 0 11.9999C0 13.9363 0.463636 15.769 1.27636 17.389L5.28545 14.2799Z" fill="#FBBC05"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M12 4.77273C13.7618 4.77273 15.3436 5.37818 16.5873 6.56727L20.0291 3.12545C17.9509 1.18909 15.2345 0 12 0C7.30909 0 3.25091 2.68909 1.27637 6.61091L5.28546 9.72C6.22909 6.88364 8.87455 4.77273 12 4.77273Z" fill="#EA4335"></path></svg>
+          Continue with Google
+        </button>
+        
+        <button type="button" class="btn btn-outline-danger sosmed-btn mb-24 cb">
+          <i class="bi bi-apple cb"></i>
+          Continue with Apple
+        </button>
+        <div
+        class="form-check form-switch "
+        style="display: flex; justify-content: center">
+        <input
+        class="form-check-input"
+        type="checkbox"
+        role="switch"
+        id="flexSwitchCheckDefault"/>
+        <label
+        class="form-check-label"
+        for="flexSwitchCheckDefault"
+        style="padding-left: 10px"
+        >Keep me Signed in</label>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+</html>
